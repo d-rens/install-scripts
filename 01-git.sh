@@ -1,12 +1,9 @@
-cd
-cd .config
+cd ~/.config
 git clone git@github.com:d-rens/dotfiles
-mv dotfiles/* ./
-cd
+mv dotfiles/* dotfiles.* ./
 
-cd
-mkdir repos
-cd repos
+mkdir ~/repos
+cd ~/repos
 git clone git@github.com:d-rens/wallpaper
 git clone git@github.com:d-rens/page
 git clone git@github.com:d-rens/phy-L-template
